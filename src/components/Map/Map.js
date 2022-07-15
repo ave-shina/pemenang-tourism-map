@@ -22,11 +22,6 @@ const Map = ({ children, className, ...rest }) => {
     (async function init() {
       delete L.Icon.Default.prototype._getIconUrl;
 
-      L.map("map", {
-        center: [-8.4056618, 116.0674516],
-        zoom: 12,
-      });
-
       L.Icon.Default.mergeOptions({
         iconRetinaUrl: iconRetinaUrl.src,
         iconUrl: iconUrl.src,

@@ -9,10 +9,20 @@ import Pemenanggeojson from "./pemenang";
 const DEFAULT_CENTER = [-8.4056618, 116.0674516];
 
 export default function Home() {
-  const fillBlueOptions = { fillColor: "red" };
-  console.log(Pemenanggeojson.features[0].geometry.coordinates);
+  // const style = (feature) => {
+  //   switch (feature.properties.Desa_Name) {
+  //     case "MENGGALA":
+  //       return { color: "#ff9900" };
+  //     case "MALAKA":
+  //       return { color: "red" };
+  //     case "PEMENANG BARAT":
+  //       return { color: "blue" };
+  //     case "PEMENANG TIMUR":
+  //       return { color: "green" };
+  //     case "GILI INDAH":
+  //       return { color: "magenta" };
+  //   }
 
-  const polygon = [[-8.407884008672028, 116.104361675142286, 0.0]];
   return (
     <div className={styles.container}>
       <Head>
@@ -21,27 +31,50 @@ export default function Home() {
 
       <main className={styles.main}>
         <Map className={styles.homeMap} center={DEFAULT_CENTER} zoom={12}>
-          {({ TileLayer, Marker, Popup, Polyline, Polygon }) => (
+          {({
+            TileLayer,
+            Marker,
+            Popup,
+            Polyline,
+            Polygon,
+            FeatureGroup,
+            GeoJSON,
+          }) => (
             <>
               <TileLayer
                 url="https://cartodb-basemaps-{s}.global.ssl.fastly.net/light_all/{z}/{x}/{y}{r}.png"
                 attribution='&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a> &copy; <a href="http://cartodb.com/attributions">CartoDB</a>'
               />
-              {/* <Marker position={DEFAULT_CENTER}>
-                <Popup>
-                  A pretty CSS3 popup. <br /> Easily customizable.
-                </Popup>
-              </Marker> */}
+              {/* <GeoJSON data={Pemenanggeojson} style={style} /> */}
 
-              <Polygon pathOptions={fillBlueOptions} positions={polygon} />
-
-              {/* {Pemenanggeojson.features.map((item, index) => (
-                <Polyline
-                  key={index}
-                  pathOptions={fillBlueOptions}
-                  positions={item.geometry.coordinates}
-                />
-              ))} */}
+              {Pemenanggeojson.features.map((feature, index) => {
+                console.log(feature.geometry.coordinates);
+                return (
+                  <FeatureGroup color="purple" key={index}>
+                    <Popup>
+                      <p>{feature.properties.Desa_Name}</p>
+                      <button
+                        id="button"
+                        className="btn btn-primary"
+                        onClick={() => {
+                          toggle(true);
+                          setSelectedFeature(feature);
+                        }}
+                      >
+                        More Info
+                      </button>
+                    </Popup>
+                    <Polygon
+                      positions={feature.geometry.coordinates}
+                      fillColor={feature.properties.color}
+                      color={feature.properties.color}
+                      weight={1}
+                      opacity={1}
+                      fillOpacity={0.8}
+                    ></Polygon>
+                  </FeatureGroup>
+                );
+              })}
             </>
           )}
         </Map>
