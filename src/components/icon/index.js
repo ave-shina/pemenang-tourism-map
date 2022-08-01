@@ -1,0 +1,13 @@
+export { default as beachIcon } from "./beachIcon";
+export { default as divingIcon } from "./divingIcon";
+export { default as ekowisataIcon } from "./ekowisataIcon";
+export { default as faskesIcon } from "./faskesIcon";
+export { default as hillIcon } from "./hillIcon";
+export { default as hotelIcon } from "./hotelIcon";
+export { default as masjidIcon } from "./masjidIcon";
+export { default as pelabuhanIcon } from "./pelabuhanIcon";
+export { default as puraIcon } from "./puraIcon";
+export { default as spbuIcon } from "./spbuIcon";
+export { default as viharaIcon } from "./viharaIcon";
+export { default as waterfallIcon } from "./waterfallIcon";
+export { default as wisatalainIcon } from "./wisatalainIcon";
