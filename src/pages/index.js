@@ -5,7 +5,7 @@ import Map from "../components/Map";
 
 import styles from "../../styles/Home.module.css";
 
-import Pemenanggeojson from "./pemenang";
+import Pemenanggeojson from "../components/Map/data/pemenangMap";
 
 const DEFAULT_CENTER = [-8.4056618, 116.0674516];
 
@@ -44,7 +44,6 @@ export default function Home() {
                     center={DEFAULT_CENTER}
                     zoom={12}
                     toggle={toggleButton}
-                    handleToggle={handleToggleButton}
                 >
                     {({
                         TileLayer,
