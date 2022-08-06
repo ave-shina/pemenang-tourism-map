@@ -1,62 +1,77 @@
 [
     {
         "name": "Sunset Point Agung",
-        "position": [-8.346047, 116.028432]
+        "position": [-8.346244644073922, 116.02807201630598],
+        "gmaps": "https://goo.gl/maps/3FPs5LRJoo2C5pcZ9"
     },
     {
         "name": "Sunset Point Rinjani",
-        "position": [-8.351996, 116.087026]
+        "position": [-8.352625085038943, 116.08680693599601],
+        "gmaps": "https://goo.gl/maps/ReRr2JPZwSQQ9swk7"
     },
     {
         "name": "Pantai Gili Trawangan",
-        "position": [-8.359432, 116.039734]
+        "position": [-8.360112390410274, 116.04035720854436],
+        "gmaps": "https://goo.gl/maps/MRJqhi3aAWW4G8y46"
     },
     {
         "name": "Gili Meno South-East Beach",
-        "position": [-8.357647, 116.060852]
+        "position": [-8.358007900289408, 116.06079835273658],
+        "gmaps": "https://goo.gl/maps/9xjAMFD596vr6uTE9"
     },
     {
         "name": "Pantai Muara Putat",
-        "position": [-8.38977, 116.104277]
+        "position": [-8.38977, 116.104277],
+        "gmaps": "https://goo.gl/maps/7WTNYwu1n6G8YJmh9"
     },
     {
         "name": "Pantai Bangsal",
-        "position": [-8.393934, 116.098923]
+        "position": [-8.393747099999992, 116.10057457549162],
+        "gmaps": "https://goo.gl/maps/JRdxJEayEStj1tpm8"
     },
     {
         "name": "Pantai Teluk Kodek",
-        "position": [-8.402857, 116.079887]
+        "position": [-8.403398290356641, 116.07990845472919],
+        "gmaps": "https://goo.gl/maps/jjABjn9aWUJTnyM6A"
     },
     {
         "name": "Pantai Mentigi",
-        "position": [-8.403155, 116.067098]
+        "position": [-8.403260658936112, 116.06719285083442],
+        "gmaps": "https://goo.gl/maps/W8eGt7gVwzy2Sc9T7"
     },
     {
         "name": "Pantai Kecinan",
-        "position": [-8.405831, 116.060257]
+        "position": [-8.405958357866506, 116.06014897052619],
+        "gmaps": "https://goo.gl/maps/pTtbrBVNi3kWm52z7"
     },
     {
         "name": "Pantai Teluk Borok",
-        "position": [-8.409103, 116.053713]
+        "position": [-8.409187901873674, 116.05379882773985],
+        "gmaps": "https://goo.gl/maps/GuYwcz6P5DPHgVah7"
     },
     {
         "name": "Pantai Pandanan",
-        "position": [-8.419811, 116.049847]
+        "position": [-8.419768541150892, 116.050168862112],
+        "gmaps": "https://goo.gl/maps/PCSTg3uyo2y86vq87"
     },
     {
         "name": "Pantai Nipah",
-        "position": [-8.43379, 116.04479]
+        "position": [-8.433207638655501, 116.04577742046551],
+        "gmaps": "https://goo.gl/maps/Bd98xeBzAkcvTK8x7"
     },
     {
         "name": "Pantai Malimbu",
-        "position": [-8.441226, 116.038247]
+        "position": [-8.44183939256793, 116.03808291696889],
+        "gmaps": "https://goo.gl/maps/5q9WLLzso9VvKYu78"
     },
     {
         "name": "Pantai Setangi",
-        "position": [-8.449554, 116.033488]
+        "position": [-8.454106639202879, 116.03521281076769],
+        "gmaps": "https://goo.gl/maps/UtfNRorx765R1Z7t7"
     },
     {
         "name": "Pantai Klui",
-        "position": [-8.465615, 116.037057]
+        "position": [-8.466325993145418, 116.03677804734684],
+        "gmaps": "https://goo.gl/maps/79sofs6HeZW3vJNG6"
     }
 ]

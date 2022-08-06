@@ -1,10 +1,12 @@
 [
     {
         "name": "SPBU",
-        "position": [-8.397206, 116.106954]
+        "position": [-8.397963109481445, 116.10683601937292],
+        "gmaps": "https://goo.gl/maps/zjnsgMZpEtENmBLU9"
     },
     {
         "name": "SPBU",
-        "position": [-8.412077, 116.099221]
+        "position": [-8.412224768158879, 116.09933002706657],
+        "gmaps": "https://goo.gl/maps/4n4ocn4VKNXPJW8Z8"
     }
 ]

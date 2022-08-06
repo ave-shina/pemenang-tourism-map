@@ -1,22 +1,27 @@
 [
     {
         "name": "Pelabuhan Gili Trawangan",
-        "position": [-8.352888, 116.043303]
+        "position": [-8.352993916465374, 116.0436351106445],
+        "gmaps": "https://goo.gl/maps/faSbEsnoXuQXM2kR7"
     },
     {
         "name": "Gili Meno Terminal Ferry",
-        "position": [-8.353483, 116.062339]
+        "position": [-8.35349959545329, 116.06155482904452],
+        "gmaps": "https://goo.gl/maps/PorDhdxHHfvtFT3t9"
     },
     {
         "name": "Pelabuhan Gili Air",
-        "position": [-8.363893, 116.082862]
+        "position": [-8.363667570602564, 116.0831120299694],
+        "gmaps": "https://goo.gl/maps/wrciv3VFZApmsSSt6"
     },
     {
         "name": "Pelabuhan Bangsal",
-        "position": [-8.393934, 116.099221]
+        "position": [-8.393934, 116.099221],
+        "gmaps": "https://goo.gl/maps/CQS5pCesVv2JSyT2A"
     },
     {
         "name": "Pelabuhan Teluk Nare",
-        "position": [-8.406129, 116.073939]
+        "position": [-8.40664800595279, 116.07355019908593],
+        "gmaps": "https://goo.gl/maps/Emwg6oAQ1SbAqLSJ7"
     }
 ]

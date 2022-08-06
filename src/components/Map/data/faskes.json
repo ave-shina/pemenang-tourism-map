@@ -1,14 +1,17 @@
 [
     {
         "name": "Puskesmas Pemenang",
-        "position": [-8.402161, 116.105927]
+        "position": [-8.402118568011815, 116.10588346407592],
+        "gmaps": "https://goo.gl/maps/ZrVkaSorMDc5d8Km8"
     },
     {
         "name": "Puskesmas Menggala",
-        "position": [-8.435176, 116.088081]
+        "position": [-8.435176, 116.088081],
+        "gmaps": "https://goo.gl/maps/Dgmuhne21VG1HF4EA"
     },
     {
         "name": "Puskesmas Nipah",
-        "position": [-8.433391, 116.048225]
+        "position": [-8.433391, 116.048225],
+        "gmaps": "https://goo.gl/maps/uyqN8dWBB3qX6ABP7"
     }
 ]

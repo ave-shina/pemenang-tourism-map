@@ -1,14 +1,17 @@
 [
     {
         "name": "Pura Dalem Pemenang",
-        "position": [-8.349617, 116.043601]
+        "position": [-8.403248640364222, 116.09320517894037],
+        "gmaps": "https://goo.gl/maps/mD28FZPgeCKwnuK8A"
     },
     {
         "name": "Pura Desa Pemenang",
-        "position": [-8.351996, 116.05639]
+        "position": [-8.403882456509153, 116.1036250809748],
+        "gmaps": "https://goo.gl/maps/LwY4Mav1jkx9icfs6"
     },
     {
         "name": "Pura Manik Sari Batu Beleq",
-        "position": [-8.463533, 116.083754]
+        "position": [-8.463490545927801, 116.08307808044825],
+        "gmaps": "https://goo.gl/maps/mVpfuYq3RpC7t1f89"
     }
 ]

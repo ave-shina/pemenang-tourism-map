@@ -1,38 +1,52 @@
 [
     {
-        "name": "Shark Point Dive 2",
-        "position": [-8.34575, 116.023078]
-    },
-    {
-        "name": "Shark Point Dive 1",
-        "position": [-8.356458, 116.029026]
+        "name": "Shark Point",
+        "position": [-8.356393539156677, 116.02864036332387],
+        "gmaps": "https://goo.gl/maps/DKPuET1GYR5bcBDV6"
     },
     {
         "name": "Gili Meno Bask Nest",
-        "position": [-8.347535, 116.050144]
+        "position": [-8.349536180501667, 116.05107693934566],
+        "gmaps": "https://goo.gl/maps/rM6uKqE4cZXhtZY19"
     },
     {
-        "name": "Turtle Heaven",
-        "position": [-8.340099, 116.061149]
+        "name": "Turtle Paradise",
+        "position": [-8.340183916978571, 116.05572020622027],
+        "gmaps": "https://goo.gl/maps/rbafrWD9kbKnZBFo9"
     },
     {
         "name": "Secret Garden Dive Spot",
-        "position": [-8.349022, 116.085241]
-    },
-    {
-        "name": "DPM Diving Gili Air",
-        "position": [-8.363596, 116.084051]
+        "position": [-8.3495845955188, 116.08570233696781],
+        "gmaps": "https://goo.gl/maps/QkfmLkUVnhAE5AUUA"
     },
     {
         "name": "3W Dive",
-        "position": [-8.360027, 116.087323]
+        "position": [-8.360419796852701, 116.0872497249796],
+        "gmaps": "https://g.page/3WDive?share"
     },
     {
         "name": "Blue Marine Dive",
-        "position": [-8.353483, 116.086431]
+        "position": [-8.35330449478795, 116.08651744887405],
+        "gmaps": "https://goo.gl/maps/Xg2hmy39EY4edXXw7"
     },
     {
-        "name": "Turtle Dive Nipah",
-        "position": [-8.434087, 116.038842]
+        "name": "Manta Point Diving Spot",
+        "position": [-8.361198687976374, 116.02850204324312],
+        "gmaps": "https://goo.gl/maps/8rZXgbskehWcLtM2A"
+    },
+    {
+        "name": "Sunset Reef, Diving Spot",
+        "position": [-8.365051213278926, 116.03207469422355],
+        "gmaps": "https://goo.gl/maps/xhtcTNwbaoE1Srf76"
+    },
+    {
+        "name": "Coral View Point",
+        "position": [-8.355262767789851, 116.05150795897752],
+        "gmaps": "https://goo.gl/maps/WKFWzxTBWRynE28WA"
+    },
+    {
+        "name": "Coral View Point",
+        "position": [-8.34794986431633, 116.08725801805684],
+        "gmaps": "https://goo.gl/maps/sYESvLLkV15Mj8jR9"
     }
 ]

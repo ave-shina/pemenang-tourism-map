@@ -1,30 +1,37 @@
 [
     {
         "name": "Masjid Agung Baiturrahman Gili Trawangan",
-        "position": [-8.349617, 116.043601]
+        "position": [-8.349617, 116.043601],
+        "gmaps": "https://goo.gl/maps/8mskFadnE6sQ3VP5A"
     },
     {
         "name": "Masjid Gili Meno",
-        "position": [-8.351996, 116.05639]
+        "position": [-8.352641993170119, 116.05643266636433],
+        "gmaps": "https://goo.gl/maps/w1TU92nVcefvu8q26"
     },
     {
         "name": "Masjid Gili Air",
-        "position": [-8.360324, 116.082564]
+        "position": [-8.360333052151244, 116.0823949645292],
+        "gmaps": "https://goo.gl/maps/kkhfWyzZHtxxt4ai6"
     },
     {
         "name": "Masjid Jami Nurul Hikmah ",
-        "position": [-8.404344, 116.102492]
+        "position": [-8.405039681380357, 116.10247399409485],
+        "gmaps": "https://goo.gl/maps/aGzK3hndkZH3dZLG8"
     },
     {
-        "name": "Masjid Mentigi",
-        "position": [-8.406129, 116.065313]
+        "name": "Masjid Nurul Yaqin kecinan",
+        "position": [-8.407340261381014, 116.06100525982998],
+        "gmaps": "https://goo.gl/maps/PDgFTgsMrMSB3ZgW9"
     },
     {
         "name": "Masjid Nipah",
-        "position": [-8.431708, 116.050144]
+        "position": [-8.431708, 116.050144],
+        "gmaps": "https://goo.gl/maps/LiaacGeiDqYVvpTw6"
     },
     {
         "name": "Masjid Nurul Iman",
-        "position": [-8.452231, 116.040626]
+        "position": [-8.45258296344584, 116.04047797413922],
+        "gmaps": "https://goo.gl/maps/n7W2AuD6k2PNJdVK9"
     }
 ]

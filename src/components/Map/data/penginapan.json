@@ -1,82 +1,102 @@
 [
     {
         "name": "Arnel Bungalows",
-        "position": [-8.400775, 116.1016]
+        "position": [-8.400943738024623, 116.10163121469058],
+        "gmaps": "https://goo.gl/maps/gxsh6A4TE2djoM6BA"
     },
     {
         "name": "Aston Sunset Beach Resort",
-        "position": [-8.347237, 116.028134]
+        "position": [-8.347438005689567, 116.02828231140906],
+        "gmaps": "https://g.page/astonsunset?share"
     },
     {
         "name": "Kuno Villas",
-        "position": [-8.340396, 116.03438]
+        "position": [-8.341148137585948, 116.03411546079975],
+        "gmaps": "https://goo.gl/maps/KPEWd9cRFMotad6u9"
     },
     {
         "name": "Pondok Santi Estate Luxury Beachside Accommodation",
-        "position": [-8.359729, 116.036462]
+        "position": [-8.36041918655427, 116.03678068598941],
+        "gmaps": "https://goo.gl/maps/m2udLHb2zvnVbhKd9"
     },
     {
         "name": "Villa Ombak Harbour",
-        "position": [-8.358242, 116.041519]
+        "position": [-8.35820962397065, 116.04107075642173],
+        "gmaps": "https://goo.gl/maps/e2wMH6eyNQPrgtbE9"
     },
     {
         "name": "Meno House",
-        "position": [-8.343073, 116.053713]
+        "position": [-8.343073, 116.053713],
+        "gmaps": "https://g.page/meno-house?share"
     },
     {
         "name": "Kampung Meno Bungalows",
-        "position": [-8.352888, 116.055498]
+        "position": [-8.353439379285739, 116.05574745392025],
+        "gmaps": "https://goo.gl/maps/vj2U6wJVfUgfZQzGA"
     },
     {
         "name": "De Chicktoria Hostel",
-        "position": [-8.432707, 116.090298]
+        "position": [-8.43304403613648, 116.09000393034133],
+        "gmaps": "https://goo.gl/maps/ojGC5uz4CvpespbL8"
     },
     {
         "name": "Villa Pintu Bintang",
-        "position": [-8.416069, 116.108941]
+        "position": [-8.415176606946885, 116.10887274197964],
+        "gmaps": "https://goo.gl/maps/xVYKtqutsuGXE4CZ9"
     },
     {
         "name": "Koo Sasak Villa",
-        "position": [-8.41054, 116.096994]
+        "position": [-8.410481113332684, 116.09695148393993],
+        "gmaps": "https://goo.gl/maps/aYik1McmrxQSMdGAA"
     },
     {
         "name": "Khoo Villa",
-        "position": [-8.410968, 116.097351]
+        "position": [-8.411068159576912, 116.09722047757099],
+        "gmaps": "https://goo.gl/maps/qt9SZVQ5Jpf66rFB6"
     },
     {
-        "name": "Monti Dome Villas Lombok",
-        "position": [-8.4049, 116.068583]
+        "name": "The Princess of Mentigi Bay",
+        "position": [-8.404333455290953, 116.0696306656821],
+        "gmaps": "https://goo.gl/maps/aQcy8u3f2GpynZ2T6"
     },
     {
         "name": "Makalele Dome",
-        "position": [-8.404139, 116.067061]
+        "position": [-8.404649019820642, 116.06717241587103],
+        "gmaps": "https://goo.gl/maps/xFrp5nQ3gEdsVFXP9"
     },
     {
         "name": "Le Gusto Restaurant by BAIO Lombok",
-        "position": [-8.41023, 116.053545]
+        "position": [-8.410031330103735, 116.05358157899494],
+        "gmaps": "https://goo.gl/maps/VqL5j4xdu8eT8pG39"
     },
     {
         "name": "Nipah Pool Villas & Restaurnt",
-        "position": [-8.4365, 116.044979]
+        "position": [-8.436288416931763, 116.04510390632336],
+        "gmaps": "https://g.page/nipahvillas?share"
     },
     {
         "name": "Amarsvati Luxury Resort Hotel",
-        "position": [-8.437642, 116.03984]
+        "position": [-8.437994382382737, 116.03988404557958],
+        "gmaps": "https://goo.gl/maps/vyChqUL9a6iQc1ZNA"
     },
     {
         "name": "Royal Avila Boutique Resort & Spa",
-        "position": [-8.446208, 116.032606]
+        "position": [-8.44656224804935, 116.03292485368206],
+        "gmaps": "https://goo.gl/maps/iitAA9jjaVfvvLAj6"
     },
     {
         "name": "Living Asia Resort",
-        "position": [-8.45801, 116.038507]
+        "position": [-8.458140916999252, 116.03843721584994],
+        "gmaps": "https://g.page/living-asia-resort-and-spa?share"
     },
     {
         "name": "Pesona Bulan Baru Hotel",
-        "position": [-8.458962, 116.038317]
+        "position": [-8.459146763109864, 116.0384979447346],
+        "gmaps": "https://goo.gl/maps/sML5p41vaibg4As9A"
     },
     {
         "name": "Jeeva Klui Resort Lombok",
-        "position": [-8.468099, 116.038126]
+        "position": [-8.468310128866094, 116.03817808224866],
+        "gmaps": "https://goo.gl/maps/GDTz1Bvpb8HUvorq7"
     }
 ]

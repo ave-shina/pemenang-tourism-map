@@ -1,10 +1,12 @@
 [
     {
         "name": "Hunting Klite",
-        "position": [-8.400478, 116.087026]
+        "position": [-8.401110493273254, 116.08739951161324],
+        "gmaps": "https://goo.gl/maps/n4gyFqnGHZMHyrfX7"
     },
     {
         "name": "Pasar Tradisional Pemenang",
-        "position": [-8.406426, 116.103385]
+        "position": [-8.4067064488339, 116.10381011533705],
+        "gmaps": "https://goo.gl/maps/gsPFAnA88WBSWw1T7"
     }
 ]
