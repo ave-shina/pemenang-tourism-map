@@ -14,12 +14,12 @@ import shadowUrl from "leaflet/dist/images/marker-shadow.png";
 const { MapContainer, MapConsumer } = ReactLeaflet;
 
 const Map = ({ children, className, ...rest }) => {
+    const { toggle, handleToggleButton } = rest;
     let mapClassName = styles.map;
 
     if (className) {
         mapClassName = `${mapClassName} ${className}`;
     }
-
     useEffect(() => {
         (async function init() {
             delete L.Icon.Default.prototype._getIconUrl;
@@ -35,7 +35,7 @@ const Map = ({ children, className, ...rest }) => {
     return (
         <MapContainer className={mapClassName} {...rest}>
             <MapConsumer>{(map) => children(ReactLeaflet, map)}</MapConsumer>
-            <MapMarker />
+            <MapMarker toggle={toggle} />
         </MapContainer>
     );
 };

@@ -31,97 +31,139 @@ import ekowisata from "./data/ekowisata.json";
 import waterfall from "./data/waterfall.json";
 import hotel from "./data/penginapan.json";
 
-const MapMarker = () => {
-    return (
-        <>
-            {masjid.map((item, index) => (
-                <Marker icon={masjidIcon} position={item.position} key={index}>
-                    <PopupModal data={item} />
-                </Marker>
-            ))}
-            {pura.map((item, index) => (
-                <Marker icon={puraIcon} position={item.position} key={index}>
-                    <PopupModal data={item} />
-                </Marker>
-            ))}
-            {vihara.map((item, index) => (
-                <Marker icon={viharaIcon} position={item.position} key={index}>
-                    <PopupModal data={item} />
-                </Marker>
-            ))}
-            {pelabuhan.map((item, index) => (
-                <Marker
-                    icon={pelabuhanIcon}
-                    position={item.position}
-                    key={index}
-                >
-                    <PopupModal data={item} />
-                </Marker>
-            ))}
-            {spbu.map((item, index) => (
-                <Marker icon={spbuIcon} position={item.position} key={index}>
-                    <PopupModal data={item} />
-                </Marker>
-            ))}
-            {faskes.map((item, index) => (
-                <Marker icon={faskesIcon} position={item.position} key={index}>
-                    <PopupModal data={item} />
-                </Marker>
-            ))}
-            {faskes.map((item, index) => (
-                <Marker icon={faskesIcon} position={item.position} key={index}>
-                    <PopupModal data={item} />
-                </Marker>
-            ))}
-            {diving.map((item, index) => (
-                <Marker icon={divingIcon} position={item.position} key={index}>
-                    <PopupModal data={item} />
-                </Marker>
-            ))}
-            {hill.map((item, index) => (
-                <Marker icon={hillIcon} position={item.position} key={index}>
-                    <PopupModal data={item} />
-                </Marker>
-            ))}
-            {beach.map((item, index) => (
-                <Marker icon={beachIcon} position={item.position} key={index}>
-                    <PopupModal data={item} />
-                </Marker>
-            ))}
-            {wisatalain.map((item, index) => (
-                <Marker
-                    icon={wisatalainIcon}
-                    position={item.position}
-                    key={index}
-                >
-                    <PopupModal data={item} />
-                </Marker>
-            ))}
-            {ekowisata.map((item, index) => (
-                <Marker
-                    icon={ekowisataIcon}
-                    position={item.position}
-                    key={index}
-                >
-                    <PopupModal data={item} />
-                </Marker>
-            ))}
-            {waterfall.map((item, index) => (
-                <Marker
-                    icon={waterfallIcon}
-                    position={item.position}
-                    key={index}
-                >
-                    <PopupModal data={item} />
-                </Marker>
-            ))}
-            {hotel.map((item, index) => (
-                <Marker icon={hotelIcon} position={item.position} key={index}>
-                    <PopupModal data={item} />
-                </Marker>
-            ))}
-        </>
-    );
+const MapMarker = ({ toggle }) => {
+    if (toggle) {
+        return (
+            <>
+                {masjid.map((item, index) => (
+                    <Marker
+                        icon={masjidIcon}
+                        position={item.position}
+                        key={index}
+                    >
+                        <PopupModal data={item} />
+                    </Marker>
+                ))}
+                {pura.map((item, index) => (
+                    <Marker
+                        icon={puraIcon}
+                        position={item.position}
+                        key={index}
+                    >
+                        <PopupModal data={item} />
+                    </Marker>
+                ))}
+                {vihara.map((item, index) => (
+                    <Marker
+                        icon={viharaIcon}
+                        position={item.position}
+                        key={index}
+                    >
+                        <PopupModal data={item} />
+                    </Marker>
+                ))}
+                {pelabuhan.map((item, index) => (
+                    <Marker
+                        icon={pelabuhanIcon}
+                        position={item.position}
+                        key={index}
+                    >
+                        <PopupModal data={item} />
+                    </Marker>
+                ))}
+                {spbu.map((item, index) => (
+                    <Marker
+                        icon={spbuIcon}
+                        position={item.position}
+                        key={index}
+                    >
+                        <PopupModal data={item} />
+                    </Marker>
+                ))}
+                {faskes.map((item, index) => (
+                    <Marker
+                        icon={faskesIcon}
+                        position={item.position}
+                        key={index}
+                    >
+                        <PopupModal data={item} />
+                    </Marker>
+                ))}
+                {faskes.map((item, index) => (
+                    <Marker
+                        icon={faskesIcon}
+                        position={item.position}
+                        key={index}
+                    >
+                        <PopupModal data={item} />
+                    </Marker>
+                ))}
+                {diving.map((item, index) => (
+                    <Marker
+                        icon={divingIcon}
+                        position={item.position}
+                        key={index}
+                    >
+                        <PopupModal data={item} />
+                    </Marker>
+                ))}
+                {hill.map((item, index) => (
+                    <Marker
+                        icon={hillIcon}
+                        position={item.position}
+                        key={index}
+                    >
+                        <PopupModal data={item} />
+                    </Marker>
+                ))}
+                {beach.map((item, index) => (
+                    <Marker
+                        icon={beachIcon}
+                        position={item.position}
+                        key={index}
+                    >
+                        <PopupModal data={item} />
+                    </Marker>
+                ))}
+                {wisatalain.map((item, index) => (
+                    <Marker
+                        icon={wisatalainIcon}
+                        position={item.position}
+                        key={index}
+                    >
+                        <PopupModal data={item} />
+                    </Marker>
+                ))}
+                {ekowisata.map((item, index) => (
+                    <Marker
+                        icon={ekowisataIcon}
+                        position={item.position}
+                        key={index}
+                    >
+                        <PopupModal data={item} />
+                    </Marker>
+                ))}
+                {waterfall.map((item, index) => (
+                    <Marker
+                        icon={waterfallIcon}
+                        position={item.position}
+                        key={index}
+                    >
+                        <PopupModal data={item} />
+                    </Marker>
+                ))}
+                {hotel.map((item, index) => (
+                    <Marker
+                        icon={hotelIcon}
+                        position={item.position}
+                        key={index}
+                    >
+                        <PopupModal data={item} />
+                    </Marker>
+                ))}
+            </>
+        );
+    } else return <></>;
 };
 
 export default MapMarker;

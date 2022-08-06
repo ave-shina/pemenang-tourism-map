@@ -1,3 +1,4 @@
+import { useState } from "react";
 import Head from "next/head";
 
 import Map from "../components/Map";
@@ -9,19 +10,11 @@ import Pemenanggeojson from "./pemenang";
 const DEFAULT_CENTER = [-8.4056618, 116.0674516];
 
 export default function Home() {
-    // const style = (feature) => {
-    //   switch (feature.properties.Desa_Name) {
-    //     case "MENGGALA":
-    //       return { color: "#ff9900" };
-    //     case "MALAKA":
-    //       return { color: "red" };
-    //     case "PEMENANG BARAT":
-    //       return { color: "blue" };
-    //     case "PEMENANG TIMUR":
-    //       return { color: "green" };
-    //     case "GILI INDAH":
-    //       return { color: "magenta" };
-    //   }
+    const [toggleButton, setToggleButton] = useState(true);
+
+    const handleToggleButton = () => {
+        setToggleButton(!toggleButton);
+    };
 
     return (
         <div className={styles.container}>
@@ -30,10 +23,28 @@ export default function Home() {
             </Head>
 
             <main className={styles.main}>
+                <div className={styles.switchContainer}>
+                    <div
+                        className={styles.switchButton}
+                        onClick={handleToggleButton}
+                    >
+                        <input
+                            type="checkbox"
+                            id="toggleWisata"
+                            name="toggleWisata"
+                            value="toggleWisata"
+                            checked={toggleButton}
+                            onChange={handleToggleButton}
+                        ></input>
+                        <label for="toggleWisata"> Wisata</label>
+                    </div>
+                </div>
                 <Map
                     className={styles.homeMap}
                     center={DEFAULT_CENTER}
                     zoom={12}
+                    toggle={toggleButton}
+                    handleToggle={handleToggleButton}
                 >
                     {({
                         TileLayer,
