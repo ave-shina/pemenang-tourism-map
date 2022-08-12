@@ -32,10 +32,10 @@ import waterfall from "./data/waterfall.json";
 import hotel from "./data/penginapan.json";
 
 const MapMarker = ({ toggle }) => {
-    if (toggle) {
-        return (
-            <>
-                {masjid.map((item, index) => (
+    return (
+        <>
+            {toggle[7] &&
+                masjid.map((item, index) => (
                     <Marker
                         icon={masjidIcon}
                         position={item.position}
@@ -44,7 +44,8 @@ const MapMarker = ({ toggle }) => {
                         <PopupModal data={item} />
                     </Marker>
                 ))}
-                {pura.map((item, index) => (
+            {toggle[7] &&
+                pura.map((item, index) => (
                     <Marker
                         icon={puraIcon}
                         position={item.position}
@@ -53,7 +54,8 @@ const MapMarker = ({ toggle }) => {
                         <PopupModal data={item} />
                     </Marker>
                 ))}
-                {vihara.map((item, index) => (
+            {toggle[7] &&
+                vihara.map((item, index) => (
                     <Marker
                         icon={viharaIcon}
                         position={item.position}
@@ -62,7 +64,8 @@ const MapMarker = ({ toggle }) => {
                         <PopupModal data={item} />
                     </Marker>
                 ))}
-                {pelabuhan.map((item, index) => (
+            {toggle[5] &&
+                pelabuhan.map((item, index) => (
                     <Marker
                         icon={pelabuhanIcon}
                         position={item.position}
@@ -71,7 +74,8 @@ const MapMarker = ({ toggle }) => {
                         <PopupModal data={item} />
                     </Marker>
                 ))}
-                {spbu.map((item, index) => (
+            {toggle[4] &&
+                spbu.map((item, index) => (
                     <Marker
                         icon={spbuIcon}
                         position={item.position}
@@ -80,7 +84,8 @@ const MapMarker = ({ toggle }) => {
                         <PopupModal data={item} />
                     </Marker>
                 ))}
-                {faskes.map((item, index) => (
+            {toggle[4] &&
+                faskes.map((item, index) => (
                     <Marker
                         icon={faskesIcon}
                         position={item.position}
@@ -89,16 +94,8 @@ const MapMarker = ({ toggle }) => {
                         <PopupModal data={item} />
                     </Marker>
                 ))}
-                {faskes.map((item, index) => (
-                    <Marker
-                        icon={faskesIcon}
-                        position={item.position}
-                        key={index}
-                    >
-                        <PopupModal data={item} />
-                    </Marker>
-                ))}
-                {diving.map((item, index) => (
+            {toggle[1] &&
+                diving.map((item, index) => (
                     <Marker
                         icon={divingIcon}
                         position={item.position}
@@ -107,7 +104,8 @@ const MapMarker = ({ toggle }) => {
                         <PopupModal data={item} />
                     </Marker>
                 ))}
-                {hill.map((item, index) => (
+            {toggle[2] &&
+                hill.map((item, index) => (
                     <Marker
                         icon={hillIcon}
                         position={item.position}
@@ -116,7 +114,8 @@ const MapMarker = ({ toggle }) => {
                         <PopupModal data={item} />
                     </Marker>
                 ))}
-                {beach.map((item, index) => (
+            {toggle[0] &&
+                beach.map((item, index) => (
                     <Marker
                         icon={beachIcon}
                         position={item.position}
@@ -125,7 +124,8 @@ const MapMarker = ({ toggle }) => {
                         <PopupModal data={item} />
                     </Marker>
                 ))}
-                {wisatalain.map((item, index) => (
+            {toggle[3] &&
+                wisatalain.map((item, index) => (
                     <Marker
                         icon={wisatalainIcon}
                         position={item.position}
@@ -134,7 +134,8 @@ const MapMarker = ({ toggle }) => {
                         <PopupModal data={item} />
                     </Marker>
                 ))}
-                {ekowisata.map((item, index) => (
+            {toggle[3] &&
+                ekowisata.map((item, index) => (
                     <Marker
                         icon={ekowisataIcon}
                         position={item.position}
@@ -143,7 +144,8 @@ const MapMarker = ({ toggle }) => {
                         <PopupModal data={item} />
                     </Marker>
                 ))}
-                {waterfall.map((item, index) => (
+            {toggle[3] &&
+                waterfall.map((item, index) => (
                     <Marker
                         icon={waterfallIcon}
                         position={item.position}
@@ -152,7 +154,8 @@ const MapMarker = ({ toggle }) => {
                         <PopupModal data={item} />
                     </Marker>
                 ))}
-                {hotel.map((item, index) => (
+            {toggle[6] &&
+                hotel.map((item, index) => (
                     <Marker
                         icon={hotelIcon}
                         position={item.position}
@@ -161,9 +164,8 @@ const MapMarker = ({ toggle }) => {
                         <PopupModal data={item} />
                     </Marker>
                 ))}
-            </>
-        );
-    } else return <></>;
+        </>
+    );
 };
 
 export default MapMarker;

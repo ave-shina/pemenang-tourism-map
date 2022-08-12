@@ -10,10 +10,44 @@ import Pemenanggeojson from "../components/Map/data/pemenangMap";
 const DEFAULT_CENTER = [-8.4056618, 116.0674516];
 
 export default function Home() {
-    const [toggleButton, setToggleButton] = useState(true);
+    const [pantai, setPantai] = useState(true);
+    const [diving, setDiving] = useState(true);
+    const [hill, setHill] = useState(true);
+    const [wisataLain, setWisataLain] = useState(true);
+    const [fasilitasUmum, setFasilitasUmum] = useState(true);
+    const [pelabuhan, setPelabuhan] = useState(true);
+    const [penginapan, setPenginapan] = useState(true);
+    const [ibadah, setIbadah] = useState(true);
 
-    const handleToggleButton = () => {
-        setToggleButton(!toggleButton);
+    const handleToggleButton = (type) => {
+        switch (type) {
+            case "pantai":
+                setPantai(!pantai);
+                return;
+            case "diving":
+                setDiving(!diving);
+                return;
+            case "hill":
+                setHill(!hill);
+                return;
+            case "wisataLain":
+                setWisataLain(!wisataLain);
+                return;
+            case "fasilitasUmum":
+                setFasilitasUmum(!fasilitasUmum);
+                return;
+            case "pelabuhan":
+                setPelabuhan(!pelabuhan);
+                return;
+            case "penginapan":
+                setPenginapan(!penginapan);
+                return;
+            case "ibadah":
+                setIbadah(!ibadah);
+                return;
+            default:
+                return;
+        }
     };
 
     return (
@@ -26,24 +60,134 @@ export default function Home() {
                 <div className={styles.switchContainer}>
                     <div
                         className={styles.switchButton}
-                        onClick={handleToggleButton}
+                        onClick={() => handleToggleButton("pantai")}
                     >
                         <input
                             type="checkbox"
-                            id="toggleWisata"
-                            name="toggleWisata"
-                            value="toggleWisata"
-                            checked={toggleButton}
-                            onChange={handleToggleButton}
+                            id="togglePantai"
+                            name="togglePantai"
+                            value="togglePantai"
+                            checked={pantai}
+                            onChange={() => handleToggleButton("pantai")}
                         ></input>
-                        <label for="toggleWisata"> Wisata</label>
+                        <label for="togglePantai"> Beach</label>
+                    </div>
+                    <div
+                        className={styles.switchButton}
+                        onClick={() => handleToggleButton("diving")}
+                    >
+                        <input
+                            type="checkbox"
+                            id="toggleDiving"
+                            name="toggleDiving"
+                            value="toggleDiving"
+                            checked={diving}
+                            onChange={() => handleToggleButton("diving")}
+                        ></input>
+                        <label for="toggleDiving"> Diving</label>
+                    </div>
+                    <div
+                        className={styles.switchButton}
+                        onClick={() => handleToggleButton("hill")}
+                    >
+                        <input
+                            type="checkbox"
+                            id="toggleHill"
+                            name="toggleHill"
+                            value="toggleHill"
+                            checked={hill}
+                            onChange={() => handleToggleButton("hill")}
+                        ></input>
+                        <label for="toggleHill"> Hill</label>
+                    </div>
+                    <div
+                        className={styles.switchButton}
+                        onClick={() => handleToggleButton("wisataLain")}
+                    >
+                        <input
+                            type="checkbox"
+                            id="toggleWisataLain"
+                            name="toggleWisataLain"
+                            value="toggleWisataLain"
+                            checked={wisataLain}
+                            onChange={() => handleToggleButton("wisataLain")}
+                        ></input>
+                        <label for="toggleWisataLain"> Other Tours</label>
+                    </div>
+                    <div
+                        className={styles.switchButton}
+                        onClick={() => handleToggleButton("fasilitasUmum")}
+                    >
+                        <input
+                            type="checkbox"
+                            id="toggleFasilitasUmum"
+                            name="toggleFasilitasUmum"
+                            value="toggleFasilitasUmum"
+                            checked={fasilitasUmum}
+                            onChange={() => handleToggleButton("fasilitasUmum")}
+                        ></input>
+                        <label for="toggleFasilitasUmum">
+                            {" "}
+                            Public Facilities
+                        </label>
+                    </div>
+                    <div
+                        className={styles.switchButton}
+                        onClick={() => handleToggleButton("pelabuhan")}
+                    >
+                        <input
+                            type="checkbox"
+                            id="togglePelabuhan"
+                            name="togglePelabuhan"
+                            value="togglePelabuhan"
+                            checked={pelabuhan}
+                            onChange={() => handleToggleButton("pelabuhan")}
+                        ></input>
+                        <label for="togglePelabuhan"> Harbor</label>
+                    </div>
+                    <div
+                        className={styles.switchButton}
+                        onClick={() => handleToggleButton("penginapan")}
+                    >
+                        <input
+                            type="checkbox"
+                            id="togglePenginapan"
+                            name="togglePenginapan"
+                            value="togglePenginapan"
+                            checked={penginapan}
+                            onChange={() => handleToggleButton("penginapan")}
+                        ></input>
+                        <label for="togglePenginapan"> Lodging</label>
+                    </div>
+                    <div
+                        className={styles.switchButton}
+                        onClick={() => handleToggleButton("ibadah")}
+                    >
+                        <input
+                            type="checkbox"
+                            id="toggleIbadah"
+                            name="toggleIbadah"
+                            value="toggleIbadah"
+                            checked={ibadah}
+                            onChange={() => handleToggleButton("ibadah")}
+                        ></input>
+                        <label for="toggleIbadah"> Worship Place</label>
                     </div>
                 </div>
                 <Map
                     className={styles.homeMap}
                     center={DEFAULT_CENTER}
                     zoom={12}
-                    toggle={toggleButton}
+                    toggle={[
+                        pantai,
+                        diving,
+                        hill,
+                        wisataLain,
+                        fasilitasUmum,
+                        pelabuhan,
+                        penginapan,
+                        ibadah,
+                    ]}
                 >
                     {({
                         TileLayer,
